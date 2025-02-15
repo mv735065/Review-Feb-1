@@ -13,7 +13,6 @@ function getOldAndYoungestPerProfession(data){
         let profession=person.profession;
         let age=person.age;
         let name=person.name;
-       console.log(profession);
        
         if(!acc.hasOwnProperty(profession)){
             acc[profession]={
